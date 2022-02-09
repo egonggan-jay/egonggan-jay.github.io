@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BlueSpace</title>
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+	<style type="text/css">
+    
+		html, body {
+			margin-left: auto;
+            margin-right: auto;
+			width:100%; 
+			background-color: #4c97f2;
+			max-width: 1600px;
+		}
+
+		body {
+		    font-family: 'Montserrat', sans-serif;
+			margin: 0 0 0 0;
+			color: black;
+			font-weight: 700;
+			font-size: 100%;
+			min-width: 475px;
+		}
+	
+    	a:link {
+			text-decoration: none;
+	    }
+		a:link {
+			color: rgb(0, 0, 0);
+		}
+		a:visited {
+            color: rgb(0, 0, 0);
+        }
+		a:hover{
+		    color: #0f0ff5;
+		}
+        a:active {
+            color: #0f0ff5;
+        }
+        a, h1, h2{
+			margin: 0;
+        }
+
+		
+
+		.menu {
+			overflow: auto;
+			width: 100%; 
+			padding-top: 5vh;
+		}
+		.quarter {
+			float: left;
+			text-align: left;
+			width: 25%;
+			padding-bottom: 5vh;
+		}
+		.quarter1 {
+			float: left;
+			text-align: left;
+			width: 50%;
+			padding-bottom: 5vh;
+		}
+		.quarter h1 {
+			font-size: 1.125em;
+			font-weight: 400;
+		}
+
+
+
+		.main {
+			float: left;
+			text-align: center;
+			width: 100%;
+			padding: 15vh 0 0 0;
+		}
+		.main h1 {
+			font-size: 25vh;
+		}
+
+
+		.content {
+			float: left;
+			text-align: left;
+			padding-top: 50px;
+			height: 100%;
+			margin-top: 25vh;
+			width: 100%;
+		}
+		.content h1 {
+			font-size: 1.125em;
+			font-weight: 400;
+			position: relative;
+		}
+
+		.half {
+			float: left;
+			width: 40%;
+			margin-left: 5%;
+		}
+
+		.halfimg {
+			float: left;
+			width: 40%;
+			margin-left: -25vw;
+			z-index: 1; 
+			max-width: 75vw;
+		}
+
+		.half h1 {
+			margin-bottom: 7.5vh;
+			font-size: 12.5vw;
+		}
+
+		.half h2 {
+			font-size: 2em;
+			margin-bottom: 5vh;
+		}
+
+		.frame {
+		    z-index: -1;
+		    display: block;
+			width: auto;
+            height: 60vh;
+			margin-top: 40vh;
+		}
+
+		.end {
+			float: left;
+			text-align: left;
+			width: 100%;
+			padding-top: 5vh;
+			border-top: 2px solid black; 
+			margin-top: 35vh;
+		}
+
+		.third {
+			float: left;
+			width: 20%;
+			padding-bottom: 15px;
+		}
+
+		.third h1 {
+			font-size: 4em;
+			overflow: visible;
+		}
+
+		.third h2 {
+			font-weight: 700;
+		}
+
+		.third h3 {
+			font-weight: 400;
+		}
+
+		.fifth {
+			float: left;
+			width: 12%;
+			padding-bottom: 15px;
+		}
+
+		.fifth img {
+			width: 100%;
+		}
+
+		.logo {
+			position: fixed;
+			bottom: 0;
+			left: 5px;
+		}
+
+		.logo img {
+			width: 10vw;
+		}
+
+		.blue { 
+			color: #0f0ff5;
+		}
+		
+	@media only screen and (max-width: 620px) {
+		.menu, .main, .content, .half, .third, .content h1 {
+    width: 90vw;
+		}
+		.quarter1 { 
+			width: 5vw;
+		}
+		.quarter { 
+			width: 45%;
+		}
+		.halfimg {
+			margin-left: 0vw;
+			width: 30vw;
+		}
+		.halfimg img {
+			margin-top: -50vh;
+			margin-left: 15vw;
+			width: 100vw;
+		}
+		.third {
+			width: 0;
+		}
+		.fifth {
+			width: 50vw;
+		}
+		.fifth img {
+			width: 50vw;
+			margin-left: 25vw;
+		}
+    }
+
+	@media only screen and (min-width: 1200px) {
+		.main h1 {
+			font-size: 15em;
+			padding-top: 10vh;
+		}
+		.half h1 {
+			font-size: 12.5em;
+		}
+		.halfimg {
+			margin-left: 5vw;
+			margin-top: 15vh;
+		}
+		.logo img {
+			max-width: 125px;
+		}
+    }
+
+    </style>
+</head>
+
+<body>
+ 
+	<div class="menu">   
+		<div class="quarter1">    
+		</div>
+		<div class="quarter">    
+			<h1>
+				<a>
+				블루스페이스 </br>
+				성수이로22길 37 </br>
+				성동구 서울특별시
+				</a>
+			</h1>
+	 	</div>
+	 	<div class="quarter">    
+			<h1>
+				<a href="mailto: hello@bluespace.com">hello@bluespace.one </br></a>
+				<a href="https://www.instagram.com/bluespace">Instagram </br></a>
+				<a href="https://twitter.com/bluespace">Twitter</a>
+			</h1>
+	 	</div>
+	</div>
+
+
+	<div class="logo">
+		<img src="img/logo.png">
+	</div>
+
+	 <div class="main">    
+		<h1><a>bluespace</a></h1> 
+	 </div>
+
+	
+	<div class="content" >
+		<div class="half">   
+			<h1 style="z-index: 5; margin-top: 25vh; font-weight: 700; line-height: .85em;">
+				Let's create <a>value</a> toegether
+			</h1>
+		</div>
+
+		<div class="halfimg">   
+			<img src="img/rotate-apt.gif">
+		</div>
+	</div> 
+
+    <div class="content" >
+		<div class="half">   
+			<h1 style="z-index: 5; font-weight: 700; font-size: 3em;">
+				Share your creation </br>
+				with the world
+			</h1>
+		</div>
+
+    	<div class="half">   
+			<h2>
+				What is <span style="color: #0f0ff5">Blue Space</span>?
+			</h2>
+			<h3>
+				The majority of the 3D work created while pursuing an academic degree in the creative field never see the light of the day outside the context of our portfolio </br>
+			</br>
+				BlueSpace connects you to the community that can appreciate the value of your work, allowing you to promote your work in the form of NFTs, while generating traffic and income
+			</h3>
+  	  </div>   
+	</div> 
+
+
+
+	<div class="main" style="margin-top: 15vh;">    
+		<div class="center"> 
+			<h1 style="font-size: 3em; text-align: center;">A fair market with <span style="color: #0f0ff5">Ethereum Layer 2 NFT</span> support </br>for creators to exhibit their work</h1> 
+		</div>
+	 </div>
+
+
+
+	 <div class="main">    
+		<div class="third"> </div>
+		<div class="fifth"> 
+			<img src="img/aws.png" style="margin-right: 200px; z-index: 1;">
+		</div>
+		<div class="fifth"> 
+			<img src="img/ethereum.png" style="margin-right: 200px; z-index: 1;">
+		</div>
+		<div class="fifth"> 
+			<img src="img/html5.png" style="margin-right: 200px; z-index: 1;">
+		</div>
+		<div class="fifth"> 
+			<img src="img/loopring.png" style="margin-right: 200px; z-index: 1;">
+		</div>
+		<div class="fifth"> 
+			<img src="img/nodejs.png" style="margin-right: 200px; z-index: 1;">
+		</div>
+		<div class="third"> 
+		</div>
+	 </div>
+
+
+
+	<div class="content" >
+		<div class="half">   
+			<h1 style="z-index: 5; font-weight: 700; font-size: 3em;">
+				<span style="color: #0f0ff5">New</span> market </br>
+				for the <span style="color: #0f0ff5">New</span> creators
+			</h1>
+		</div>
+
+    	<div class="half">   
+			<h2>
+				What is different?
+			</h2>
+			<h3>
+				Current art scene is only accessible to the "chosen" creators with the blessings of the select few curators that control the market </br>
+			</br>
+				The new and unique artworks of the current generation's artists often remain in the shadows, waiting for the right moment to shine through </br>
+			</br>
+				BlueSpace proposes a new market to the stagnant art scene, introducing current technology of blockchain and NFT to provide fair opportunities to creators of all kinds
+			</h3>
+  	  </div>   
+	</div> 
+
+	<div class="content">
+		<div class="half">   
+			<h1 style="z-index: 5; font-weight: 700; font-size: 3em;">
+				We are almost ready!
+			</h1>
+		</div>
+
+    	<div class="half">   
+			<h3>
+				We are currently in the process of recruiting creators, artists, designers, architects, sculptors, engineers and dreamers </br>
+			</br>
+				If you want to stay in contact, and be notified of our progress, </br>
+			</br>
+				or if you want to join us in our endeavor, <a href="mailto: hello@bluespace.com" style="text-decoration: underline;">please reach out! </a>
+			</h3>
+  	  </div>   
+	</div> 
+
+
+
+
+	<div class="end" style="border-top: 2px solid black; margin-top: 35vh;">    
+		<div class="quarter" style="width: 64%; margin-left: 2vw;">
+			<h2 style="text-align: left; padding-top: 0; z-index: 5; position: absolute;">
+			©BlueSpace LLC. All right reserved. 2022.
+			</h2>
+		</div>
+		<div class="quarter" style="width: 15%">
+			<h2 style="text-align: left;">
+				<a href="support/index.html">Privacy Policy</a>
+			</h2>
+		</div>
+		<div class="quarter" style="width: 15%">
+			<h2 style="text-align: left;">
+				<a href="https://twitter.com/bluespace">Follow us</a>
+			</h2>
+		</div>
+  	</div>
+
+
+
+  </body>
+</html>
+        
+<!--
+A rock pile ceases to be a rock pile the moment a single man contemplates it,bearing within him the image of a cathedral
+-->
