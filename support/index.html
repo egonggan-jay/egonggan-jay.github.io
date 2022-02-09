@@ -13,7 +13,7 @@
 
 	<style type="text/css">
     
-		html, body {
+	html, body {
 			margin-left: auto;
             margin-right: auto;
 			width:100%; 
@@ -56,11 +56,16 @@
 			width: 100%; 
 			padding-top: 5vh;
 		}
-
 		.quarter {
 			float: left;
 			text-align: left;
 			width: 25%;
+			padding-bottom: 5vh;
+		}
+		.quarter1 {
+			float: left;
+			text-align: left;
+			width: 50%;
 			padding-bottom: 5vh;
 		}
 		.quarter h1 {
@@ -71,23 +76,23 @@
 
 
 		.main {
-			text-align: left;
-			margin-left: 25%;
-			width: 50%;
+			float: left;
+			text-align: center;
+			width:50%;
 			padding: 15vh 0 0 0;
+			margin-left: 25%;
 		}
 		.main h1 {
-			font-size: 2em;
-			line-height: 1em;
-			margin-top: 15vh;
+			font-size: 4vh;
+			text-align: left;
 		}
 		.main h2 {
-			font-size: 1.5em;
-			line-height: 2em;
-			margin-top: 5vh;
+			font-size: 3vh;
+			text-align: left;
+			margin-top: 2vh;
 		}
 		.main p {
-			line-height: 2em;
+			text-align: left;
 		}
 
 
@@ -107,7 +112,21 @@
 
 		.half {
 			float: left;
-			width: 50%;
+			width: 40%;
+			margin-left: 5%;
+		}
+
+		.halfimg {
+			float: left;
+			width: 40%;
+			margin-left: -25vw;
+			z-index: 1; 
+			max-width: 75vw;
+		}
+
+		.half h1 {
+			margin-bottom: 7.5vh;
+			font-size: 12.5vw;
 		}
 
 		.half h2 {
@@ -129,12 +148,12 @@
 			width: 100%;
 			padding-top: 5vh;
 			border-top: 2px solid black; 
-			margin-top: 35vh
+			margin-top: 35vh;
 		}
 
 		.third {
 			float: left;
-			width: 33.3%;
+			width: 20%;
 			padding-bottom: 15px;
 		}
 
@@ -151,14 +170,75 @@
 			font-weight: 400;
 		}
 
+		.fifth {
+			float: left;
+			width: 12%;
+			padding-bottom: 15px;
+		}
+
+		.fifth img {
+			width: 100%;
+		}
+
+		.logo {
+			position: fixed;
+			bottom: 0;
+			left: 5px;
+		}
+
+		.logo img {
+			width: 10vw;
+		}
+
 		.blue { 
 			color: #0f0ff5;
 		}
 		
 	@media only screen and (max-width: 620px) {
-		.menu, .main, .right {
-    width: 100%;
-  }
+		.menu, .main, .content, .half, .third, .content h1 {
+    width: 90vw;
+		}
+		.quarter1 { 
+			width: 5vw;
+		}
+		.quarter { 
+			width: 45%;
+		}
+		.halfimg {
+			margin-left: 0vw;
+			width: 30vw;
+		}
+		.halfimg img {
+			margin-top: -50vh;
+			margin-left: 15vw;
+			width: 100vw;
+		}
+		.third {
+			width: 0;
+		}
+		.fifth {
+			width: 50vw;
+		}
+		.fifth img {
+			width: 50vw;
+			margin-left: 25vw;
+		}
+    }
+
+	@media only screen and (min-width: 1200px) {
+		.main h1 {
+			padding-top: 10vh;
+		}
+		.half h1 {
+			font-size: 12.5em;
+		}
+		.halfimg {
+			margin-left: 5vw;
+			margin-top: 15vh;
+		}
+		.logo img {
+			max-width: 125px;
+		}
     }
     </style>
 </head>
@@ -166,10 +246,7 @@
 <body>
  
 	<div class="menu">   
-		<div class="quarter">    
-			<h1>
-			
-			</h1>
+		<div class="quarter1">    
 		</div>
 		<div class="quarter">    
 			<h1>
@@ -185,11 +262,6 @@
 				<a href="mailto: hello@bluespace.com">hello@bluespace.one </br></a>
 				<a href="https://www.instagram.com/bluespace">Instagram </br></a>
 				<a href="https://twitter.com/bluespace">Twitter</a>
-			</h1>
-	 	</div>
-	 	<div class="quarter">    
-			<h1>
-				<a href="http://www.doodboard.xyz/duck">about&nbsp;&nbsp;</a>
 			</h1>
 	 	</div>
 	</div>
